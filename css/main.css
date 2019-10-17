@@ -17,16 +17,64 @@ header {
 
 h1 {
   font-family: "Sigmar One", cursive;
+  color: #b20953;
+  font-size: 3rem;
+  margin: 0;
 }
 
-h2 {
-  font-family: "Sigmar One", cursive;
+a {
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
+  border-radius: 4px;
+  padding: .75em;
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+  padding: .2em .5em .3em;
+}
+
+a:hover {
+  background-color: #cc1465;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+ul {
+  margin:0;
+  padding:0 .75em;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 0 .3em;
 }
 
 section {
   font-family: Georgia,serif;
+  text-align: left;
+  margin: 0;
+  padding: 0 .75em;
 }
 
-footer{
+h2 {
+  font-family: "Sigmar One", cursive;
+  color: #b20953;
+  font-size: 1.875rem;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
   background-color: #ffe500;
+  padding: .75em;
+}
+
+small {
+  font-size: .75rem;
 }
