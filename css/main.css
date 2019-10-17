@@ -11,6 +11,7 @@ body {
   text-align: center;
   margin: 0;
 }
+
 header {
   background-color: #ffe500;
 }
@@ -27,7 +28,6 @@ a {
   font-family: Georgia, serif;
   font-size: 1.125rem;
   border-radius: 4px;
-  padding: .75em;
   background-color: #b2a212;
   color: #fff;
   text-decoration: none;
@@ -43,8 +43,8 @@ a:hover {
 }
 
 ul {
-  margin:0;
-  padding:0 .75em;
+  margin: 0;
+  padding: 0 .75em;
 }
 
 li {
@@ -53,11 +53,12 @@ li {
   margin: 0 0 .3em;
 }
 
-section {
-  font-family: Georgia,serif;
+main {
+  font-family: Georgia, serif;
   text-align: left;
   margin: 0;
   padding: 0 .75em;
+  color: #2f2d13;
 }
 
 h2 {
@@ -68,6 +69,7 @@ h2 {
 
 img {
   width: 100%;
+  display: block;
 }
 
 footer {
